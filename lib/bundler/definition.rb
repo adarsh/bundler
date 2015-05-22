@@ -25,8 +25,6 @@ module Bundler
       Dsl.evaluate(gemfile, lockfile, unlock)
     end
 
-
-    #
     # How does the new system work?
     #
     # * Load information from Gemfile and Lockfile
